@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ── SEO: Primary ── -->
+<title>Prajwal Poojary — Senior Frontend Engineer | React · Next.js · Bengaluru</title>
+<meta name="description" content="Senior Frontend Engineer with 4+ years building React products. Led frontend teams at Simplotel. Open to roles at startups and product companies.">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Prajwal Bhoja Poojary">
+<meta name="keywords" content="Frontend Engineer, React Developer, Next.js, TypeScript, Bengaluru, Hire Frontend Engineer">
+<link rel="canonical" href="https://prajwalpoojary.dev">
+<link rel="stylesheet" href="style.css">
+
+<!-- ── SEO: Open Graph ── -->
+<meta property="og:type"        content="website">
+<meta property="og:url"         content="https://prajwalpoojary.dev">
+<meta property="og:title"       content="Prajwal Poojary — Senior Frontend Engineer">
+<meta property="og:description" content="React specialist with 4+ years shipping products. Led teams at Simplotel. Based in Bengaluru.">
+<meta property="og:image"       content="https://prajwalpoojary.dev/og-image.png">
+<meta property="og:image:width"  content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale"      content="en_IN">
+<meta property="og:site_name"   content="Prajwal Poojary">
+
+<!-- ── SEO: Twitter/X card ── -->
+<meta name="twitter:card"        content="summary_large_image">
+<meta name="twitter:title"       content="Prajwal Poojary — Senior Frontend Engineer">
+<meta name="twitter:description" content="React specialist. 4+ years. Led teams at Simplotel. Bengaluru.">
+<meta name="twitter:image"       content="https://prajwalpoojary.dev/og-image.png">
+
+<!-- ── SEO: Structured data (Person) ── -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Prajwal Bhoja Poojary",
+  "jobTitle": "Senior Frontend Engineer",
+  "url": "https://prajwalpoojary.dev",
+  "email": "prajwalpoojary67@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Bengaluru",
+    "addressCountry": "IN"
+  },
+  "knowsAbout": ["React", "TypeScript", "Next.js", "Tailwind CSS", "Frontend Engineering"],
+  "sameAs": [
+    "https://linkedin.com/in/prajwalbhojapoojary",
+    "https://github.com/prajwalpoojary"
+  ]
+}
+</script>
+
+<!-- ── Favicons ── -->
+<link rel="icon"             href="favicon.ico" sizes="any">
+<link rel="icon"             href="favicon-32x32.png" type="image/png" sizes="32x32">
+<link rel="icon"             href="favicon-16x16.png" type="image/png" sizes="16x16">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#191f1d" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f5f0e8" media="(prefers-color-scheme: light)">
+
+<!-- ── Fonts ── -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Skip link for keyboard users -->
+<a href="#main-content" class="sr-only" style="position:absolute;top:8px;left:8px;background:var(--fg);color:var(--bg);padding:8px 16px;z-index:999;font-family:var(--mulish);font-size:13px;font-weight:700;">Skip to main content</a>
+
+<!-- ── MOBILE DRAWER ── -->
+<nav role="dialog" aria-modal="true" aria-label="Navigation menu"
+     class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <a href="#work"    onclick="closeMobile()">Work</a>
+  <a href="#about"   onclick="closeMobile()">About</a>
+  <a href="#contact" onclick="closeMobile()">Contact</a>
+  <button class="theme-btn" onclick="toggleTheme(); closeMobile();"
+          id="mobileThemeBtn" aria-label="Switch colour theme">Switch to Light</button>
+</nav>
+
+<!-- ── PRIMARY NAV ── -->
+<nav aria-label="Primary navigation">
+  <a href="#" class="nav-logo" aria-label="Prajwal Poojary — home">PBP</a>
+  <div class="nav-right">
+    <div class="nav-links" role="list">
+      <a href="#work"    role="listitem">Work</a>
+      <a href="#about"   role="listitem">About</a>
+      <a href="#contact" role="listitem">Contact</a>
+    </div>
+    <button class="theme-btn" onclick="toggleTheme()" id="themeBtn"
+            aria-label="Switch colour theme">☀ Light</button>
+    <button class="hamburger" id="hamburger" onclick="toggleMobile()"
+            aria-label="Open navigation menu" aria-expanded="false"
+            aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ── HERO ── -->
+<header class="hero" id="main-content">
+  <div class="hero-card">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="role">Senior Frontend Engineer</p>
+        <h1>Prajwal<br>Poojary.</h1>
+        <p class="tagline">4 years building products.</p>
+        <p class="desc">React specialist. Led a team of 8 at Simplotel, a hospitality SaaS. Now building in public and looking for the next hard problem.</p>
+        <div class="cta-row">
+          <a href="#work"    class="btn-fill">See my work</a>
+          <a href="#contact" class="btn-outline">Get in touch</a>
+        </div>
+      </div>
+      <div class="sphere-wrap" aria-hidden="true">
+        <div class="sphere"></div>
+      </div>
+    </div>
+    <a class="hero-scroll" href="#work" aria-label="Scroll to work section">
+      <span class="hero-scroll-label">Scroll</span>
+      <span class="hero-scroll-arrow" aria-hidden="true">🢓</span>
+    </a>
+  </div>
+</header>
+
+<!-- ── WORK ── -->
+<section id="work" aria-label="Work">
+  <div class="section-wrap">
+    <h2 class="sr-only">Work</h2>
+    <div class="section-label" aria-hidden="true">Work</div>
+    <div class="projects">
+
+      <article class="project-item">
+        <div class="project-left">
+          <span class="project-number" aria-hidden="true">01</span>
+          <div class="project-info">
+            <h3 class="project-title">StayFinder Booking Engine</h3>
+            <p class="project-desc">A 6-step hotel booking flow — search, rooms, add-ons, guest details, payment, confirmation. Built with React, Zustand, TanStack Query, and Tailwind v4. Explored Next.js App Router migration patterns along the way.</p>
+            <ul class="project-tags" aria-label="Technologies used">
+              <li class="tag">React</li>
+              <li class="tag">Zustand</li>
+              <li class="tag">TanStack Query</li>
+              <li class="tag">Tailwind v4</li>
+              <li class="tag">React Hook Form</li>
+              <li class="tag">Zod</li>
+              <li class="tag">Vite</li>
+            </ul>
+          </div>
+        </div>
+        <a class="project-cta" href="https://booking-engine-murex.vercel.app"
+           target="_blank" rel="noopener noreferrer"
+           aria-label="View StayFinder Booking Engine live site">Live →</a>
+      </article>
+
+      <article class="project-item">
+        <div class="project-left">
+          <span class="project-number" aria-hidden="true">02</span>
+          <div class="project-info">
+            <h3 class="project-title">Static CMS — Simplotel</h3>
+            <p class="project-desc">Built the Static CMS at Simplotel that cut hotel website delivery time significantly. Led a team of 8 frontend engineers shipping features for hospitality clients across India.</p>
+            <ul class="project-tags" aria-label="Technologies used">
+              <li class="tag">React</li>
+              <li class="tag">SaaS</li>
+              <li class="tag">Hospitality</li>
+              <li class="tag">Team Lead</li>
+            </ul>
+          </div>
+        </div>
+        <span class="project-cta" aria-label="Professional project — no public link" style="cursor:default;opacity:0.35;">Professional</span>
+      </article>
+
+      <article class="project-item">
+        <div class="project-left">
+          <span class="project-number" aria-hidden="true">03</span>
+          <div class="project-info">
+            <h3 class="project-title">Price Parity Monitor</h3>
+            <p class="project-desc">A tool that tracks rate parity across OTAs for hotel clients — built on top of access to direct booking prices from Simplotel clients. Public repo.</p>
+            <ul class="project-tags" aria-label="Technologies used">
+              <li class="tag">TypeScript</li>
+              <li class="tag">Hospitality SaaS</li>
+              <li class="tag">Data</li>
+            </ul>
+          </div>
+        </div>
+        <a class="project-cta" href="https://github.com/prajwalpoojary/price-parity"
+           target="_blank" rel="noopener noreferrer"
+           aria-label="View Price Parity Monitor on GitHub">GitHub →</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── ABOUT ── -->
+<section id="about" aria-label="About">
+  <div class="section-wrap">
+    <h2 class="sr-only">About</h2>
+    <div class="section-label" aria-hidden="true">About</div>
+    <div class="about-grid">
+      <div class="about-left">
+        <p class="about-headline" aria-hidden="true" style="font-family:var(--mulish);font-weight:1000;font-size:clamp(32px,4vw,42px);color:var(--fg);margin-bottom:24px;line-height:1.1;">Engineer.<br>Leader.<br>Builder.</p>
+        <p>4+ years in frontend, most of it in React. At Simplotel I led a team of 8, owned the Static CMS, and shipped for hospitality clients. Now looking for React-focused roles at product companies and startups.</p>
+        <p>Long term: building SaaS for pilgrimage and temple operators — an underserved space that deserves real digital infrastructure.</p>
+        <p>Based in Bengaluru.</p>
+        <ul class="skills-row" aria-label="Skills">
+          <li class="skill-chip">React</li>
+          <li class="skill-chip">TypeScript</li>
+          <li class="skill-chip">Next.js</li>
+          <li class="skill-chip">Tailwind CSS</li>
+          <li class="skill-chip">Zustand</li>
+          <li class="skill-chip">Redux Toolkit</li>
+          <li class="skill-chip">TanStack Query</li>
+          <li class="skill-chip">Vite</li>
+          <li class="skill-chip">React Router</li>
+          <li class="skill-chip">Zod</li>
+          <li class="skill-chip">React Hook Form</li>
+          <li class="skill-chip">Git</li>
+        </ul>
+      </div>
+      <div class="about-right" aria-label="Experience timeline">
+        <div class="exp-item">
+          <div class="exp-year">2022 — 2026</div>
+          <div class="exp-role">Senior Frontend Engineer</div>
+          <div class="exp-company">Simplotel · Hospitality SaaS · Bengaluru</div>
+        </div>
+        <div class="exp-item">
+          <div class="exp-year">2026 — Now</div>
+          <div class="exp-role">Open to new roles</div>
+          <div class="exp-company">React · Startups · Product companies</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT ── -->
+<section id="contact" aria-label="Contact">
+  <div class="section-wrap">
+    <div class="section-label" style="justify-content:center;" aria-hidden="true">Contact</div>
+    <h2>Let's build<br>something.</h2>
+    <p class="contact-body">Looking for a React engineer who's shipped production features and led teams? I'm available.</p>
+    <div aria-label="Contact links" class="contact-links">
+      <a href="mailto:prajwalpoojary67@gmail.com">Email</a>
+      <div class="divider" aria-hidden="true"></div>
+      <a href="https://linkedin.com/in/prajwalbhojapoojary"
+         target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">LinkedIn</a>
+      <div class="divider" aria-hidden="true"></div>
+      <a href="https://github.com/prajwalpoojary"
+         target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">GitHub</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Prajwal Bhoja Poojary · 2026</p>
+  <p>Bengaluru, India</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
