@@ -28,5 +28,5 @@ I'm currently improving and documenting my strongest projects. More coming soon.
 
 ## Connect
 
-* Portfolio — prajwalpoojary.github.io
-* LinkedIn — prajwalbhojapoojary
+* Portfolio — [prajwalpoojary.github.io](https://prajwalpoojary.github.io/)
+* LinkedIn — [prajwalbhojapoojary](https://www.linkedin.com/in/prajwalbhojapoojary/)
